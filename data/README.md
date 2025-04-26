@@ -2,7 +2,11 @@
 
 이 프로젝트에서 사용하는 위도·경도 데이터는 국토교통부 VWorld에서 제공한 행정구역 경계 데이터를 기반으로 작성되었습니다.
 
-- **데이터 출처**: [국토교통부 VWorld](https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?dsId=30604)  
+## 데이터 출처
+- **시군구 경계 데이터**: [국토교통부 VWorld 시군구 경계 데이터](https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?dsId=30604)
+- **법정동 경계 데이터**: [국토교통부 VWorld 법정동 경계 데이터](https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?datIde=30551&dsId=30551)
+
+  
 - **GIS 전용 파일 포맷**
   - `.shp` — 지리 정보(공간 좌표) 파일  
   - `.dbf` — 속성 정보(행정구역명 등) 데이터베이스  
@@ -48,7 +52,8 @@ print(f"Python version: {sys.version}") # Python version: 3.11.12
     ├── 📁 LARD_ADM_SECT_SGG_제주  
     ├── 📁 LARD_ADM_SECT_SGG_충남  
     ├── 📁 LARD_ADM_SECT_SGG_충북  
-    └── 📄 LARD_ADM_SECT_SGG.xlsx  ← 참고용 엑셀 파일
+    ├── 📄 LARD_ADM_SECT_SGG.xlsx  ← 참고용 엑셀 파일
+    └── 📁 법정동
 
 ## step2: 데이터 불러오기.
 ```python
