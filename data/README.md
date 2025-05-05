@@ -3,7 +3,6 @@
 이 프로젝트에서 사용하는 위도·경도 데이터는 국토교통부 VWorld에서 제공한 행정구역 경계 데이터를 기반으로 작성되었습니다.
 
 ## 데이터 출처
-- **시군구 경계 데이터**: [국토교통부 VWorld 시군구 경계 데이터](https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?dsId=30604)
 - **법정동 경계 데이터**: [국토교통부 VWorld 법정동 경계 데이터](https://www.vworld.kr/dtmk/dtmk_ntads_s002.dosearchKeyword=%EB%B2%95%EC%A0%95%EA%B5%AC%EC%97%AD&searchOrganization=&searchBrmCode=&searchTagList=&searchFrm=&pageIndex=1&gidmCd=&gidsCd=&sortType=00&svcCde=NA&dsId=21&listPageIndex=1)
 
   
