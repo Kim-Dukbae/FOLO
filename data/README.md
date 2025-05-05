@@ -3,7 +3,7 @@
 이 프로젝트에서 사용하는 위도·경도 데이터는 국토교통부 VWorld에서 제공한 행정구역 경계 데이터를 기반으로 작성되었습니다.
 
 ## 데이터 출처
-- **법정동 경계 데이터**: [국토교통부 VWorld 법정동 경계 데이터](https://www.vworld.kr/dtmk/dtmk_ntads_s002.dosearchKeyword=%EB%B2%95%EC%A0%95%EA%B5%AC%EC%97%AD&searchOrganization=&searchBrmCode=&searchTagList=&searchFrm=&pageIndex=1&gidmCd=&gidsCd=&sortType=00&svcCde=NA&dsId=21&listPageIndex=1)
+- **법정동 경계 데이터**: [국토교통부 VWorld 법정동 경계 데이터](https://www.vworld.kr/dtmk/dtmk_ntads_s002.do?svcCde=NA&dsId=21)
 
   
 - **GIS 전용 파일 포맷**
@@ -34,24 +34,6 @@ print(f"Python version: {sys.version}") # Python version: 3.11.12
 ## step1: 데이터 경로 설정
 📂 project 작업 폴더  
   └── 📂 GIS  
-    ├── 📁 LARD_ADM_SECT_SGG_강원특별자치도  
-    ├── 📁 LARD_ADM_SECT_SGG_경기  
-    ├── 📁 LARD_ADM_SECT_SGG_경남  
-    ├── 📁 LARD_ADM_SECT_SGG_경북  
-    ├── 📁 LARD_ADM_SECT_SGG_광주  
-    ├── 📁 LARD_ADM_SECT_SGG_대구  
-    ├── 📁 LARD_ADM_SECT_SGG_대전  
-    ├── 📁 LARD_ADM_SECT_SGG_부산  
-    ├── 📁 LARD_ADM_SECT_SGG_서울  
-    ├── 📁 LARD_ADM_SECT_SGG_세종  
-    ├── 📁 LARD_ADM_SECT_SGG_울산  
-    ├── 📁 LARD_ADM_SECT_SGG_인천  
-    ├── 📁 LARD_ADM_SECT_SGG_전남  
-    ├── 📁 LARD_ADM_SECT_SGG_전북특별자치도  
-    ├── 📁 LARD_ADM_SECT_SGG_제주  
-    ├── 📁 LARD_ADM_SECT_SGG_충남  
-    ├── 📁 LARD_ADM_SECT_SGG_충북  
-    ├── 📄 LARD_ADM_SECT_SGG.xlsx  ← 참고용 엑셀 파일
     └── 📁 법정동
 
 ## step2: 데이터 불러오기.
