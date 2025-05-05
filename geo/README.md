@@ -5,7 +5,15 @@
 FOLO(Finding Optimal Location Optimization) 알고리즘에서 **지리적 검색 공간을 정의**하는 데 사용됩니다.
 
 ---
+```python
+korea_map = KoreaMapLoader(gis_path= '경로 확인하세요.',
+                            region='동대문구')
 
+emd_gpd, sig_gpd = korea_map.load_korea_gpd()
+gpd = korea_map.select_region_geometry(emd_gpd, sig_gpd)
+
+```
+---
 ## 메서드 소개
 > 📌 폴더명은 'SIG', 'EMD'를 포함해야 하며, 자동 탐지됩니다.<br>
 > 국토교통부 파일을 다운받아서 그대로 상위 폴더 안에 저장해주세요.
